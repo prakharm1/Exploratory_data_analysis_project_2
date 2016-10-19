@@ -28,6 +28,9 @@ $PM_{2.5}$ Emissions Data (summarySCC_PM25.rds): This file contains a data frame
 
 You can read each of the two files using the readRDS() function in R. For example, reading in each file can be done with the following code:
 
+NEI <- readRDS("summarySCC_PM25.rds")
+SCC <- readRDS("Source_Classification_Code.rds")
+
 ### Assignment
 
 The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999�2008. You may use any R package you want to support your analysis.
